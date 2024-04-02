@@ -1,0 +1,113 @@
+{
+  "navigation": "v1",
+  "metadata": {
+    "app": "cava",
+    "name": "CAVA - Sparkling Meeting support",
+    "logo": "/365admin/365admin-periodictable.png",
+    "description": "tbd\n"
+  },
+  "menus": {
+    "leftmenu": [
+      {
+        "menuitem": {
+          "name": "Products",
+          "menuitems": [
+            {
+              "menuitem": {
+                "name": "New Meeting",
+                "path": "journey/meeting/new"
+              }
+            },
+            {
+              "menuitem": {
+                "name": "Open Meeting",
+                "path": "journey/meeting/open"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "menuitem": {
+          "name": "Solutions",
+          "menuitems": [
+            {
+              "menuitem": {
+                "name": "My Service Orders",
+                "path": "journey/services/open"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "menuitem": {
+          "name": "Resources",
+          "menuitems": [
+            {
+              "menuitem": {
+                "name": "My Service Orders",
+                "path": "journey/services/open"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "menuitem": {
+          "name": "Docs",
+          "menuitems": [
+            {
+              "menuitem": {
+                "name": "My Service Orders",
+                "path": "journey/services/open"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "menuitem": {
+          "name": "Pricing",
+          "menuitems": [
+            {
+              "menuitem": {
+                "name": "My Service Orders",
+                "path": "journey/services/open"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rightmenu": [
+      {
+        "menuitem": {
+          "name": "Profile",
+          "menuitems": [
+            {
+              "menuitem": {
+                "name": "username",
+                "type": "label",
+                "path": "signin"
+              }
+            },
+            {
+              "menuitem": {
+                "unauthenticated": true,
+                "name": "Sign In",
+                "path": "signin"
+              }
+            },
+            {
+              "menuitem": {
+                "name": "Sign Out",
+                "path": "signout"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
